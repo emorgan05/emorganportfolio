@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<!-- css -->
-	<link type="text/css" rel="stylesheet" href="css/main.css"/>
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link type="text/css" rel="stylesheet" href="main.css"/>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
 	<title>Emily Morgan Portfolio</title>
-
 </head>
 
 <body>
@@ -17,13 +27,6 @@
 				<div class="col-md-3">
 					<h1>Emily Morgan</h1>
 				</div>
-				<div class="pull-right">
-					<ul class="nav nav-pills">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="pages/about.html">About</a></li>
-						<li><a href="pages/contact.html">Contact</a></li>
-					</ul>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -32,7 +35,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="pull-right">
-					<h1>Emily Morgan</h1>
+					<h1>Using coding languages to make the internet beautiful</h1>
 				</div>
 			</div>
 		</div>
@@ -40,72 +43,173 @@
 
 	<div class="main">
 		<div class="container">
-			<h3>Coding Projects</h3>
 			<div class="row">
-				<div class="col-md-4">
-					<a class="thumbnail" href="#"><img src="img/photo-1.jpg"/></a>
-					<p>Coming Soon</p>
-				</div>
-				<div class="col-md-4">
-					<a class="thumbnail" href="#"><img src="img/photo-2.jpg"/></a>
-					<p>Coming Soon</p>
-				</div>
-				<div class="col-md-4">
-					<a class="thumbnail" href="#"><img src="img/photo-3.jpg"/></a>
-					<p>Coming Soon</p>
-				</div>
+				<h1>Website Design and Development</h1>
 			</div>
-			<h3>Writing Projects</h3>
 			<div class="row">
-				<div class="col-md-4">
-					<a class="thumbnail" href="https://artchallenge.wordpress.com/2016/05/16/art-challenge-4-real-abstract/"><img src="http://vmfa.museum/exhibitions/wp-content/uploads/sites/7/2015/06/e201505_0129.jpg"/></a>
-					<p>Blog Post</p>
-				</div>
-				<div class="col-md-4">
-					<a class="thumbnail" href="http://www.writeraccess.com/blog/"><img src="http://www.writeraccess.com/blog/wp-content/uploads/2016/06/person-apple-laptop-notebook-large-300x200.jpg"/></a>
-					<p>Blog Post</p>
-				</div>
-				<div class="col-md-4">
-					<a class="thumbnail" href="https://mkecc.edu/veterinary-assistant/"><img src="img/Veterinarian-Assistant-1.jpg"/></a>
-					<p>Program Materials</p>
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<div class="supporting">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<h3>Emily Morgan</h3>
+				<!-- Image 1 -->
+				<div class="col-sm-4">
+					<img src="images/artworkportfolio.jpg" id="thumbnail" data-toggle="modal" data-target="#artworkportfolio"/>
 				</div>
-				<div class="col-md-8">
-					<p>I am a Richmond-based English professor turned front-end developer and content creator. My deeply rooted love for language gives me a drive and excitement for the coding languages that make the internet beautiful. I also enjoy creating blog posts and essays. Please take a look around and contact me.</p>
+
+				<!-- Modal -->
+				<div id="artworkportfolio" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  					<div class="modal-dialog" role="document">
+    					<div class="modal-content">
+    						<div class="modal-header">
+                      			<button type="button" class="close" data-dismiss="modal">&times;</button>
+    							<h3>"Kim Morgan Cummings Art"</h3>
+    						</div>
+    						<div class="modal-body">
+    							<img src="images/artworkportfolio.jpg" id="modal"/>
+    							<p><a href="#">www.kimmorgancummings.com</a></p>
+								<p>Artist's portfolio and ecommerce website. Designed including colors, fonts, and layout. Website built with HTML, CSS, Bootstrap, JQuery, and WordPress. Theme customization to reflect original layout plan. Client provided photos of artwork.</p>
+								<p>Full website coming soon</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    		</div>
+    					</div>
+  					</div>
+				</div>
+
+
+				<!-- Image 2 -->
+				<div class="col-sm-4">
+					<img src="images/portfolionew.jpg" id="thumbnail" data-toggle="modal" data-target="#portfolionew"/>
+				</div>
+
+				<!-- Modal -->
+				<div id="portfolionew" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  					<div class="modal-dialog" role="document">
+    					<div class="modal-content">
+    						<div class="modal-header">
+                      			<button type="button" class="close" data-dismiss="modal">&times;</button>
+    							<h3>"Emily Morgan Portfolio"</h3>
+    						</div>
+    						<div class="modal-body">
+    							<img src="images/portfolionew.jpg" id="modal"/>
+    							<p>www.emorganportfolio.com</p>
+								<p>Latest design for my personal portfolio website. Built with HTML, CSS, Bootstrap, and JQuery.</p>
+								<p>May 2017</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    		</div>
+    					</div>
+  					</div>
+				</div>
+
+
+				<!-- Image 3 -->
+				<div class="col-sm-4">
+					<img src="images/jenistarr.jpg" id="thumbnail" data-toggle="modal" data-target="#jenistarr"/>
+				</div>
+
+				<!-- Modal -->
+				<div id="jenistarr" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  					<div class="modal-dialog" role="document">
+    					<div class="modal-content">
+    						<div class="modal-header">
+                      			<button type="button" class="close" data-dismiss="modal">&times;</button>
+    							<h3>"Jeni Starr Wellness"</h3>
+    						</div>
+    						<div class="modal-body">
+    							<img src="images/jenistarr.jpg" id="modal"/>
+    							<p><a href="http://www.jenistarr.com">www.jenistarr.com</a></p>
+								<p>Small business website design including colors, fonts, pictures, and layout. Website built with HTML, CSS, Bootstrap, and Underscores WordPress theme. Theme customization to reflect original layout plan. Client wrote content.</p>
+								<p>March 2017</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    		</div>
+    					</div>
+  					</div>
 				</div>
 			</div>
+
+			<div class="row">
+				<!-- Image 4 -->
+				<div class="col-sm-4">
+					<img src="images/emilymorgan.jpg" id="thumbnail" data-toggle="modal" data-target="#emilymorgan"/>
+				</div>
+
+				<!-- Modal -->
+				<div id="emilymorgan" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  					<div class="modal-dialog" role="document">
+    					<div class="modal-content">
+    						<div class="modal-header">
+                      			<button type="button" class="close" data-dismiss="modal">&times;</button>
+    							<h3>"Emily Morgan Portfolio"</h3>
+    						</div>
+    						<div class="modal-body">
+    							<img src="images/emilymorgan.jpg" id="modal"/>
+    							<p>www.emorganportfolio.com</p>
+								<p>Original design for my personal portfolio website. Built with HTML, CSS, Bootstrap, JQuery, and JavaScript.</p>
+								<p>July 2016</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    		</div>
+    					</div>
+  					</div>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<h1>Website Development</h1>
+			</div>
+			<div class="row">
+
+				<!-- Image 1 -->
+				<div class="col-sm-4">
+					<img src="images/maxxpotential.jpg" id="thumbnail" data-toggle="modal" data-target="#maxxpotential"/>
+				</div>
+
+				<!-- Modal -->
+				<div id="maxxpotential" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  					<div class="modal-dialog" role="document">
+    					<div class="modal-content">
+    						<div class="modal-header">
+                      			<button type="button" class="close" data-dismiss="modal">&times;</button>
+    							<h3>"Hello, I'm Sam"</h3>
+    						</div>
+    						<div class="modal-body">
+    							<img src="images/maxxpotential.jpg" id="modal"/>
+								<p>Project website built from a designer's mockup. Website built with HTML, CSS, Bootstrap, JQuery, and Javascript. One version includes Modals, one version includes a carousel.</p>
+								<p>February 2017</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    		</div>
+    					</div>
+  					</div>
+				</div>
+
+
 		</div>
 	</div>
 
 	<div class="footer">
 		<div class="container">
 			<ul>
-				<li><a href="mailto:emorgan05@gmail.com">Email</a></li>
-				<li><a href="https://mobile.twitter.com/emorgan0530">Twitter</a></li>
+				<li><a href="mailto:emily@emorganportfolio.com">Email</a></li>
 				<li><a href="https://www.linkedin.com/in/emily-morgan-55061b87">LinkedIn</a></li>
+				<li><a href="https://github.com/emorgan05">GitHub</a></li>
 			</ul>
 		</div>
 	</div>
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-	<!-- Latest compiled JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-	<!-- Accordion -->
-  	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
-
-  	<!-- js -->
-	<script src="js/main.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
